@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.card{
+    margin:10px;
+    margin-left: 230px;
+    margin-top: 100px;
+    width: 850px;
+    height:350px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.card-in{
+    padding-top: 50px;
+    width: 425px;
+    height: 350px;
+}
+
+.card-in h2{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-in span{
+    color: purple;
+}
+
+.card-in p{
+    margin-top: 10px;
+    font-family: 'Inter Thin 100', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.card .numeros{
+    margin: 8px;
+    padding: 8px;
+    display:inline-flex;
+}
+
+.card .numeros h2{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 18px;
+
+}
+
+.card .numeros p{
+    margin-top: 7px;
+    margin-left: 40px;
+    color:rgb(153, 153, 153);
+}
+
+.card2{
+    width: 425px;
+    height: 350px;
+    background-color: hsl(277, 64%, 61%);
+    float: right;
+}
+
+.card2 img{
+    width: 425px;
+    height: 350px;
+    filter:opacity(60%);
+}
+
+.attribution{
+    font-size: 14px;
+    text-align: center;
+    margin-left: 140px;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: blue;
+
+}
+
+@media screen and (max-width: 500px){
+
+
+   .card{
+       width: 250px;
+       height: 730px;
+       margin-left: 120px;
+
+      
+   }
+
+   .card2{
+       width: 250px;
+       height: 200px;
+       
+   }
+
+   .card2 img{
+       width: 250px;
+       height: 200px;
+       
+       
+   }
+
+   .card-in{
+       width: 250px;
+       text-align:center;
+   }
+
+   .card-in .numeros{
+        display: inline;
+   }
+
+   .card-in .numeros h2{
+       margin-left: -10px;
+   }
+
+   .card-in .numeros p{
+       margin-left: -10px;
+   }
+
+   
+
+
+ 
+}
+
